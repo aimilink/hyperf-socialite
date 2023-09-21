@@ -1,20 +1,20 @@
 {
-    "name": "cblink/hyperf-socialite",
+    "name": "sunny5156/hyperf-socialite",
     "description": "socialite ",
     "license": "MIT",
     "authors": [
         {
-            "name": "Nick",
-            "email": "me@xieying.vip"
+            "name": "sunny5156",
+            "email": "sunny5156@qq.com"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^7.4|^8.0|^8.1",
         "ext-json": "*",
-        "hyperf/http-message": "^2.2",
-        "hyperf/guzzle": "^2.2",
-        "hyperf/contract": "^2.2",
-        "hyperf/http-server": "^2.2",
+        "hyperf/http-message": "^3.0",
+        "hyperf/guzzle": "^3.0",
+        "hyperf/contract": "^3.0",
+        "hyperf/http-server": "^3.0",
         "league/oauth1-client": "^1.0"
     },
     "require-dev": {
