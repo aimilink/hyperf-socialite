@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\Hyperf\Socialite;
+namespace Sunny\Hyperf\Socialite;
 
 use Closure;
 use Hyperf\Utils\Str;

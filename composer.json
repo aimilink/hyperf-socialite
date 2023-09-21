@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Cblink\\Hyperf\\Socialite\\": "src/",
+            "Sunny\\Hyperf\\Socialite\\": "src/",
             "HyperfSocialiteProviders\\": "providers/"
         }
     },
     "extra": {
         "hyperf": {
-            "config": "Cblink\\Hyperf\\Socialite\\ConfigProvider"
+            "config": "Sunny\\Hyperf\\Socialite\\ConfigProvider"
         }
     },
     "scripts": {

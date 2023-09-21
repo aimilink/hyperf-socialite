@@ -1,8 +1,8 @@
 <?php
 
-namespace Cblink\Hyperf\Socialite\Contracts;
+namespace Sunny\Hyperf\Socialite\Contracts;
 
-use Cblink\Hyperf\Socialite\Two\AbstractProvider;
+use Sunny\Hyperf\Socialite\Two\AbstractProvider;
 
 interface SocialiteInterface
 {

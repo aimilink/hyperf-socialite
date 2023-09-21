@@ -1,13 +1,13 @@
 <?php
 
-namespace Cblink\Hyperf\Socialite\One;
+namespace Sunny\Hyperf\Socialite\One;
 
 use Hyperf\Contract\SessionInterface;
 use Hyperf\HttpServer\Contract\ResponseInterface;
 use Hyperf\Utils\Collection;
 use InvalidArgumentException;
 use League\OAuth1\Client\Credentials\TokenCredentials;
-use Cblink\Hyperf\Socialite\Contracts\Provider as ProviderContract;
+use Sunny\Hyperf\Socialite\Contracts\Provider as ProviderContract;
 use Hyperf\HttpServer\Contract\RequestInterface;
 use League\OAuth1\Client\Server\Server;
 use Psr\Log\LoggerInterface;

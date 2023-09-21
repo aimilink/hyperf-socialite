@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\Hyperf\Socialite\Contracts;
+namespace Sunny\Hyperf\Socialite\Contracts;
 
 interface User
 {

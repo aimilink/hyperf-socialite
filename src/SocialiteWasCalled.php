@@ -1,12 +1,12 @@
 <?php
 
-namespace Cblink\Hyperf\Socialite;
+namespace Sunny\Hyperf\Socialite;
 
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\HttpServer\Contract\RequestInterface;
 use League\OAuth1\Client\Server\Server as OAuth1Server;
-use Cblink\Hyperf\Socialite\One\AbstractProvider as SocialiteOAuth1AbstractProvider;
-use Cblink\Hyperf\Socialite\Two\AbstractProvider as SocialiteOAuth2AbstractProvider;
+use Sunny\Hyperf\Socialite\One\AbstractProvider as SocialiteOAuth1AbstractProvider;
+use Sunny\Hyperf\Socialite\Two\AbstractProvider as SocialiteOAuth2AbstractProvider;
 use InvalidArgumentException;
 
 class SocialiteWasCalled

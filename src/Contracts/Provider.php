@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\Hyperf\Socialite\Contracts;
+namespace Sunny\Hyperf\Socialite\Contracts;
 
 use Hyperf\HttpServer\Contract\ResponseInterface;
 

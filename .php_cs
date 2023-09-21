@@ -1,8 +1,8 @@
 <?php
 $header = <<<EOF
-This file is part of the cblink/hyperf-socialite.
+This file is part of the sunny5156/hyperf-socialite.
 
-(c) Nick <me@xieying.vip>
+(c) sunny5156 <sunny5156@qq.com>
 
 This source file is subject to the MIT license that is bundled.
 EOF;

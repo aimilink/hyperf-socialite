@@ -1,8 +1,8 @@
 <?php
 
-namespace Cblink\Hyperf\Socialite;
+namespace Sunny\Hyperf\Socialite;
 
-use Cblink\Hyperf\Socialite\Contracts\SocialiteInterface;
+use Sunny\Hyperf\Socialite\Contracts\SocialiteInterface;
 
 class ConfigProvider
 {

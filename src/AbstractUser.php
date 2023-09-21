@@ -1,9 +1,9 @@
 <?php
 
-namespace Cblink\Hyperf\Socialite;
+namespace Sunny\Hyperf\Socialite;
 
 use ArrayAccess;
-use Cblink\Hyperf\Socialite\Contracts\User;
+use Sunny\Hyperf\Socialite\Contracts\User;
 
 abstract class AbstractUser implements ArrayAccess, User
 {

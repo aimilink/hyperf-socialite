@@ -1,8 +1,8 @@
 <?php
 
-namespace Cblink\Hyperf\Socialite\Two;
+namespace Sunny\Hyperf\Socialite\Two;
 
-use Cblink\Hyperf\Socialite\AbstractUser;
+use Sunny\Hyperf\Socialite\AbstractUser;
 
 class User extends AbstractUser
 {

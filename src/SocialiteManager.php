@@ -1,8 +1,8 @@
 <?php
 
-namespace Cblink\Hyperf\Socialite;
+namespace Sunny\Hyperf\Socialite;
 
-use Cblink\Hyperf\Socialite\Two\AbstractProvider;
+use Sunny\Hyperf\Socialite\Two\AbstractProvider;
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Contract\SessionInterface;
 use Hyperf\HttpServer\Contract\RequestInterface;
