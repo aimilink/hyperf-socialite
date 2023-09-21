@@ -2,8 +2,8 @@
 
 namespace HyperfSocialiteProviders\QQ;
 
-use Cblink\Hyperf\Socialite\Two\AbstractProvider;
-use Cblink\Hyperf\Socialite\Two\User;
+use Sunny\Hyperf\Socialite\Two\AbstractProvider;
+use Sunny\Hyperf\Socialite\Two\User;
 use GuzzleHttp\RequestOptions;
 
 class Provider extends AbstractProvider
@@ -42,7 +42,7 @@ class Provider extends AbstractProvider
     /**
      * {@inheritdoc}.
      *
-     * @see \Cblink\Hyperf\Socialite\Two\AbstractProvider::getAuthUrl()
+     * @see \Sunny\Hyperf\Socialite\Two\AbstractProvider::getAuthUrl()
      */
     public function getAuthUrl($state)
     {
@@ -52,7 +52,7 @@ class Provider extends AbstractProvider
     /**
      * {@inheritdoc}.
      *
-     * @see \Cblink\Hyperf\Socialite\Two\AbstractProvider::getTokenUrl()
+     * @see \Sunny\Hyperf\Socialite\Two\AbstractProvider::getTokenUrl()
      */
     protected function getTokenUrl()
     {
@@ -74,7 +74,7 @@ class Provider extends AbstractProvider
     /**
      * {@inheritdoc}.
      *
-     * @see \Cblink\Hyperf\Socialite\Two\AbstractProvider::getUserByToken()
+     * @see \Sunny\Hyperf\Socialite\Two\AbstractProvider::getUserByToken()
      */
     protected function getUserByToken($token)
     {
@@ -97,7 +97,7 @@ class Provider extends AbstractProvider
     /**
      * {@inheritdoc}.
      *
-     * @see \Cblink\Hyperf\Socialite\Two\AbstractProvider::mapUserToObject()
+     * @see \Sunny\Hyperf\Socialite\Two\AbstractProvider::mapUserToObject()
      */
     protected function mapUserToObject(array $user)
     {
@@ -110,7 +110,7 @@ class Provider extends AbstractProvider
     /**
      * {@inheritdoc}.
      *
-     * @see \Cblink\Hyperf\Socialite\Two\AbstractProvider::getTokenFields()
+     * @see \Sunny\Hyperf\Socialite\Two\AbstractProvider::getTokenFields()
      */
     protected function getTokenFields($code)
     {
@@ -122,7 +122,7 @@ class Provider extends AbstractProvider
     /**
      * {@inheritdoc}.
      *
-     * @see \Cblink\Hyperf\Socialite\Two\AbstractProvider::getAccessToken()
+     * @see \Sunny\Hyperf\Socialite\Two\AbstractProvider::getAccessToken()
      */
     public function getAccessTokenResponse($code)
     {

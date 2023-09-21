@@ -3,8 +3,8 @@
 namespace HyperfSocialiteProviders\WeixinWeb;
 
 use GuzzleHttp\RequestOptions;
-use Cblink\Hyperf\Socialite\Two\AbstractProvider;
-use Cblink\Hyperf\Socialite\Two\User;
+use Sunny\Hyperf\Socialite\Two\AbstractProvider;
+use Sunny\Hyperf\Socialite\Two\User;
 use Hyperf\Utils\Arr;
 
 class Provider extends AbstractProvider

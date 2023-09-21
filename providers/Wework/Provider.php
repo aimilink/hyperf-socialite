@@ -2,8 +2,8 @@
 
 namespace HyperfSocialiteProviders\Wework;
 
-use Cblink\Hyperf\Socialite\Two\AbstractProvider;
-use Cblink\Hyperf\Socialite\Two\User;
+use Sunny\Hyperf\Socialite\Two\AbstractProvider;
+use Sunny\Hyperf\Socialite\Two\User;
 use GuzzleHttp\RequestOptions;
 
 class Provider extends AbstractProvider
