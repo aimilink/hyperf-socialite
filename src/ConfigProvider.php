@@ -1,8 +1,8 @@
 <?php
 
-namespace Sunny\Hyperf\Socialite;
+namespace Aimilink\Hyperf\Socialite;
 
-use Sunny\Hyperf\Socialite\Contracts\SocialiteInterface;
+use Aimilink\Hyperf\Socialite\Contracts\SocialiteInterface;
 
 class ConfigProvider
 {

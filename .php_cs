@@ -1,6 +1,6 @@
 <?php
 $header = <<<EOF
-This file is part of the sunny5156/hyperf-socialite.
+This file is part of the aimilink/hyperf-socialite.
 
 (c) sunny5156 <sunny5156@qq.com>
 

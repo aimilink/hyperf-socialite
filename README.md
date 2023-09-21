@@ -2,7 +2,7 @@
 
 
 ## About
-sunny5156/hyperf-socialite 组件衍生于 cblink/hyperf-socialite 组件的，升级了组件版本。
+Aimilink/hyperf-socialite 组件衍生于 cblink/hyperf-socialite 组件的，升级了组件版本。
 
 
 ## Installing
@@ -10,10 +10,10 @@ sunny5156/hyperf-socialite 组件衍生于 cblink/hyperf-socialite 组件的，�
 ```shell
 
 # 安装
-composer require sunny5156/hyperf-socialite -vvv
+composer require Aimilink/hyperf-socialite -vvv
 
 # 创建配置文件
-php bin/hyperf.php vendor:publish sunny5156/hyperf-socialite
+php bin/hyperf.php vendor:publish Aimilink/hyperf-socialite
 
 ```
 
@@ -60,7 +60,7 @@ return [
 ```php
 <?php
 
-use Cblink\Hyperf\Socialite\Contracts\SocialiteInterface;
+use Aimilink\Hyperf\Socialite\Contracts\SocialiteInterface;
 
 class Controller 
 {
@@ -120,8 +120,8 @@ class Controller
 
 You can contribute in one of three ways:
 
-1. File bug reports using the [issue tracker](https://github.com/sunny5156/hyperf-socialite/issues).
-2. Answer questions or fix bugs on the [issue tracker](https://github.com/sunny5156/hyperf-socialite/issues).
+1. File bug reports using the [issue tracker](https://github.com/aimilink/hyperf-socialite/issues).
+2. Answer questions or fix bugs on the [issue tracker](https://github.com/aimilink/hyperf-socialite/issues).
 3. Contribute new features or update the wiki.
 
 _The code contribution process is not very formal. You just need to make sure that you follow the PSR-0, PSR-1, and PSR-2 coding guidelines. Any new code contributions must be accompanied by unit tests where applicable._

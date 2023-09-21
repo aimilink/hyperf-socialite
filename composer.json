@@ -1,5 +1,5 @@
 {
-    "name": "sunny5156/hyperf-socialite",
+    "name": "aimilink/hyperf-socialite",
     "description": "socialite ",
     "license": "MIT",
     "authors": [
@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Sunny\\Hyperf\\Socialite\\": "src/",
+            "Aimilink\\Hyperf\\Socialite\\": "src/",
             "HyperfSocialiteProviders\\": "providers/"
         }
     },
     "extra": {
         "hyperf": {
-            "config": "Sunny\\Hyperf\\Socialite\\ConfigProvider"
+            "config": "Aimilink\\Hyperf\\Socialite\\ConfigProvider"
         }
     },
     "scripts": {

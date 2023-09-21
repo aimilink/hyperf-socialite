@@ -1,9 +1,9 @@
 <?php
 
-namespace Sunny\Hyperf\Socialite\Two;
+namespace Aimilink\Hyperf\Socialite\Two;
 
-use Sunny\Hyperf\Socialite\ConfigTrait;
-use Sunny\Hyperf\Socialite\SocialiteWasCalled;
+use Aimilink\Hyperf\Socialite\ConfigTrait;
+use Aimilink\Hyperf\Socialite\SocialiteWasCalled;
 use GuzzleHttp\Client;
 use Hyperf\Contract\SessionInterface;
 use Hyperf\Guzzle\ClientFactory;
@@ -11,8 +11,8 @@ use Hyperf\HttpServer\Contract\ResponseInterface;
 use Hyperf\Utils\Arr;
 use Hyperf\Utils\Collection;
 use Hyperf\Utils\Str;
-use Sunny\Hyperf\Socialite\Contracts\Provider as ProviderContract;
-use Sunny\Hyperf\Socialite\Contracts\User;
+use Aimilink\Hyperf\Socialite\Contracts\Provider as ProviderContract;
+use Aimilink\Hyperf\Socialite\Contracts\User;
 use InvalidArgumentException;
 use Hyperf\HttpServer\Contract\RequestInterface;
 use Psr\Log\LoggerInterface;
@@ -211,7 +211,7 @@ abstract class AbstractProvider implements ProviderContract
     }
 
     /**
-     * @return \Sunny\Hyperf\Socialite\Two\User
+     * @return \Aimilink\Hyperf\Socialite\Two\User
      * @throws InvalidArgumentException
      */
     public function user()

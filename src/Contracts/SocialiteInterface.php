@@ -1,8 +1,8 @@
 <?php
 
-namespace Sunny\Hyperf\Socialite\Contracts;
+namespace Aimilink\Hyperf\Socialite\Contracts;
 
-use Sunny\Hyperf\Socialite\Two\AbstractProvider;
+use Aimilink\Hyperf\Socialite\Two\AbstractProvider;
 
 interface SocialiteInterface
 {

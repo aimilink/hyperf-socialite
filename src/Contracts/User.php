@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunny\Hyperf\Socialite\Contracts;
+namespace Aimilink\Hyperf\Socialite\Contracts;
 
 interface User
 {

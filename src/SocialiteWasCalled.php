@@ -1,12 +1,12 @@
 <?php
 
-namespace Sunny\Hyperf\Socialite;
+namespace Aimilink\Hyperf\Socialite;
 
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\HttpServer\Contract\RequestInterface;
 use League\OAuth1\Client\Server\Server as OAuth1Server;
-use Sunny\Hyperf\Socialite\One\AbstractProvider as SocialiteOAuth1AbstractProvider;
-use Sunny\Hyperf\Socialite\Two\AbstractProvider as SocialiteOAuth2AbstractProvider;
+use Aimilink\Hyperf\Socialite\One\AbstractProvider as SocialiteOAuth1AbstractProvider;
+use Aimilink\Hyperf\Socialite\Two\AbstractProvider as SocialiteOAuth2AbstractProvider;
 use InvalidArgumentException;
 
 class SocialiteWasCalled

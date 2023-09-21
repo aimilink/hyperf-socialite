@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunny\Hyperf\Socialite;
+namespace Aimilink\Hyperf\Socialite;
 
 use InvalidArgumentException;
 

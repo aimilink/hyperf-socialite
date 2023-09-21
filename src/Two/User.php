@@ -1,8 +1,8 @@
 <?php
 
-namespace Sunny\Hyperf\Socialite\Two;
+namespace Aimilink\Hyperf\Socialite\Two;
 
-use Sunny\Hyperf\Socialite\AbstractUser;
+use Aimilink\Hyperf\Socialite\AbstractUser;
 
 class User extends AbstractUser
 {

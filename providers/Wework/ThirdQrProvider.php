@@ -2,8 +2,8 @@
 
 namespace HyperfSocialiteProviders\Wework;
 
-use Sunny\Hyperf\Socialite\Two\AbstractProvider;
-use Sunny\Hyperf\Socialite\Two\User;
+use Aimilink\Hyperf\Socialite\Two\AbstractProvider;
+use Aimilink\Hyperf\Socialite\Two\User;
 use GuzzleHttp\RequestOptions;
 use Hyperf\Utils\Arr;
 
